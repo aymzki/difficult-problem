@@ -6,6 +6,11 @@
 
 /* Everything I added Later */
 
+.profilepic {
+  max-width: 100px;
+  height: auto;
+}
+
 @import @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
@@ -21,8 +26,8 @@ p {
 
 /* Animation */
 p {
-  animation: animated-text 4s steps(29) 1s 1 normal both,
-             animated-cursor 600ms steps(29) infinite;
+  animation: animated-text .3s steps(29) 1s 1 normal both,
+             animated-cursor 800ms steps(29) infinite;
 }
 
 /* text animation */
