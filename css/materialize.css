@@ -6,8 +6,11 @@
 
 /* Everything I added Later */
 
+
+
 .profilepic {
-  max-width: 100px;
+  margin-top: 30vh;
+  max-width: 150px;
   height: auto;
 }
 
@@ -15,7 +18,7 @@
 
 
 
-p {
+.typewriter {
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
   overflow: hidden;    
@@ -25,7 +28,7 @@ p {
 }
 
 /* Animation */
-p {
+.typewriter {
   animation: animated-text .3s steps(29) 1s 1 normal both,
              animated-cursor 800ms steps(29) infinite;
 }
