@@ -48,17 +48,47 @@
  </div>
 
  <!--Bakery Episode-->
+ <div class="section" style="background-color: white;" id="bakery">
+    <div class="container center-align">
+            <h3>Bakery</h3>
+            <div class="row">
+                <div class="col s12 m4 l2"></div>
+                <div class="col s12 m4 l8 carousel carousel-slider" data-indicators="true" id="demo-carousel">
+                    <a class="carousel-item"><img src="images/cakewrite1.jpg"></a>
+                    <a class="carousel-item"><img src="images/cakewrite2.jpg"></a>
+                    <a class="carousel-item"><img src="images/cakewrite3.jpg"></a>
+                    <a class="carousel-item"><img src="images/cakewrite4.jpg"></a>
+                    <a class="carousel-item"><img src="images/cakewrite5.jpg"></a>
+                    <a class="carousel-item"><img src="images/cakewrite6.jpg"></a>
+                </div>
+                <div class="col s12 m4 l2"></div>
+            </div>
+    </div>
+</div>
  <!--Bootcamp Episode-->
+ <div class="section" style="background-color: white;" id="bootcamp">
+    <div class="center-align">
+    </div>
+</div>
  <!--Magazine Episode-->
-
+ <div class="section" style="background-color: white;" id="magazine">
+    <div class="center-align">
+    </div>
+</div>
   <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <!--<script src="js/init.js"></script>-->
     <script src="https://use.fontawesome.com/3703bb80b1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    </body>
-
+    <script>
+        $(document).ready(function(){
+          
+          $('#demo-carousel').carousel({fullWidth: true, 
+            indicators: true});
+        });
+    </script>
+    
 </body>
 
 </html>
